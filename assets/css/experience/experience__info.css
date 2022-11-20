@@ -1,0 +1,22 @@
+.experience__info {
+    margin: 1rem;
+}
+
+.experience__botao--repo, .experience__botao--demo {
+    padding: 1.2rem 1.5rem;
+    border-color: var(--cor-de-button);
+    box-sizing: border-box;
+    margin-right: 1rem;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+.experience__botao--repo {
+    color: var(--cor-de-button);
+    background-color: var(--vor-de-fundo);
+}
+
+.experience__botao--demo {
+    color: var(--cor-de-box);
+    background-color: #2A7AE4;
+}

@@ -1,0 +1,7 @@
+/* Seccion title */
+
+.title {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 2rem 8.5rem;  
+}

@@ -1,0 +1,10 @@
+/* Sección About */
+
+section.about {
+    background-color: var(--cor-de-subfundo);
+    padding: 3rem 8.5rem; 
+}
+
+.about__img {
+    width: 8rem;
+}

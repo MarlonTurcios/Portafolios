@@ -1,0 +1,9 @@
+.skills__box {
+    width: calc(11rem - 2rem);
+    height: calc(10.875rem - 2rem);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    background-color: var(--cor-de-box);
+    padding: 1rem;
+}

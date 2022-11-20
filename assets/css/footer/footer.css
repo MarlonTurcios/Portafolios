@@ -1,0 +1,7 @@
+/* Sección footeer */
+
+section.footer{
+    padding: 1rem;
+    text-align: center;
+    background-color: var(--cor-de-box);
+}

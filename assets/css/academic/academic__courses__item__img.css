@@ -1,0 +1,8 @@
+.academic__courses__item__img {
+    background-color: var(--cor-de-box);
+    width: 23rem;
+    height: 21.688rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

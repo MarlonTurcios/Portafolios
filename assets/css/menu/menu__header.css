@@ -1,0 +1,8 @@
+/*logo y nombre*/
+.menu__header {
+    display: flex;
+}
+
+.menu__title {
+    padding-left: .5rem;
+}

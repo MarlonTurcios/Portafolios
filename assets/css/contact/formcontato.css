@@ -1,0 +1,10 @@
+/* Sección contacto */
+
+section.formcontato {
+    background-color: var(--cor-de-subfundo);
+    padding: 6rem 8.5rem 4rem 8.5rem;
+}
+
+.formcontato__contacto {
+    display: flex;
+}
