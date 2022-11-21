@@ -1,8 +1,12 @@
-.formcontato__text {
-    margin-left: 1rem;    
-}
-
+/* Mobile y Tablet */
 .formcontato__subtext {
     font-size: 1rem;
     font-weight: 500;
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    .formcontato__text {
+        margin-left: 1rem;
+    }
 }

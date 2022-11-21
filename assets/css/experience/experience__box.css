@@ -1,9 +1,18 @@
+/* Mobile y Tablet */
 .experience__box {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     margin-top: 2rem;
 }
 
-.experience__box--revert {
-    flex-direction: row-reverse;
+/* Desktop */
+@media (min-width: 1100px) {
+    .experience__box {
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .experience__box--revert {
+        flex-direction: row-reverse;
+    }
 }

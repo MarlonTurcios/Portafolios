@@ -1,5 +1,18 @@
-/* Sección Hobbies */
-
+/* Sección Hobbies Mobile*/
 section.hobbies {
-    margin: 2rem 8.5rem; 
+    margin: 2rem 1rem;
+}
+
+/* Tablet */
+@media (min-width: 665px) {
+    section.hobbies {
+        margin: 2rem 2rem; 
+    }
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    section.hobbies {
+        margin: 2rem 8.5rem; 
+    }
 }

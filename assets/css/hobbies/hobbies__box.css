@@ -1,9 +1,27 @@
+/* Mobile */
 .hobbies__box {
-    width: calc(11rem - 2rem);
-    height: calc(10.875rem - 2rem);
+    width: calc(9.75rem - 1rem);
+    height: calc(7.375rem - 2rem);
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
     background-color: var(--cor-de-box);
     padding: 1rem;
+    margin: 1rem 0rem;
+}
+
+/* Tablet */
+@media (min-width: 665px) {
+    .hobbies__box {
+        height: calc(7.375rem - 2rem);
+        width: calc(13rem - 2rem);
+    }
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    .hobbies__box {
+        width: calc(11rem - 2rem);
+        height: calc(10.875rem - 2rem);
+    }
 }

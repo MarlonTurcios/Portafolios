@@ -1,4 +1,17 @@
+/* Mobile y Tablet */
 .formcontato__img {
-    width: 464px;
-    height: 593px;
+    display: none;
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    .formcontato__text {
+        margin-left: 1rem;
+    }
+
+    .formcontato__img {
+        width: 464px;
+        height: 593px;
+        display: flex;
+    }
 }

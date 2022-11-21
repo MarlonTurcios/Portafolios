@@ -1,4 +1,14 @@
+/* Mobile */
 .academic__courses {
     display: flex;
+    flex-direction: column;
     justify-content: space-around;
+    align-items: center;
+}
+
+/* Tablet y Desktop */
+@media (min-width: 665px) {
+    .academic__courses {
+        flex-direction: row;
+    }
 }

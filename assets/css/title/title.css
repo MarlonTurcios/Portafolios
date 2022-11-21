@@ -1,7 +1,23 @@
-/* Seccion title */
-
+/* Seccion title Mobile*/
 .title {
     display: flex;
-    flex-direction: row-reverse;
-    margin: 2rem 8.5rem;  
+    flex-direction: column;
+    margin: 0rem 1rem;
+    margin-bottom: 2rem;
+}
+
+/* Tablet */
+@media (min-width: 665px) {
+    .title {
+        margin: 2rem 2rem;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    .title {
+        margin: 2rem 8.5rem;
+    }
 }

@@ -11,7 +11,7 @@ coloque nas sessões indicadas*/
     --cor-de-subfundo: #EAF2FD;
     --cor-de-box: #FFFFFF;
     --cor-de-text: #464646;
-    --cor-de-button: #2A7AE4;    
+    --cor-de-button: #2A7AE4;
 }
 
 body {    
@@ -50,43 +50,23 @@ https://en.bem.info/methodology/quick-start/*/
 /* Vamos a desafiarnos trabajando con responsividad?
 Utiliza las referencias de los breakpoints @media abajo */
 
-
-/*Tablet*/
-@media (min-width: 768px) {
-
-/* Menú */
-
-/*title*/
-
-/*Skills*/
-
-/*Hobbies*/
-
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
+/* Tablet
+@media (min-width: 750px) {
+    .title__profile {
+        transform: scale(.5, .3);
+    }
 }
 
-/*Mobile*/
-@media (min-width: 425px) {
-
-/*Menu*/
-
-/*Titulo*/
-
-/*Sección sobre mi*/
-
-/*Skills*/
-
-/*Hobbies*/
- 
-/*Formación Académica*/
-
-/*Experiencia Profesional*/
-
- /*Contacto*/
-
-/*Footer*/
-
+/*Tablet
+@media (min-width: 1053px) {
+    .title__profile {
+        transform: scale(.9, .7);
+    }
 }
+
+/*Tablet
+@media (min-width: 1272px) {
+    .title__profile {
+        transform: scale(1);
+    }
+}*/

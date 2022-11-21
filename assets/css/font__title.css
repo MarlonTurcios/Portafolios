@@ -1,5 +1,6 @@
 .size__title__2 {
-    font-size: 2rem;
+    font-size: 1.7rem;
+    /* font-size: 2rem; */
     margin-top: 0rem;
 }
 
@@ -9,4 +10,11 @@
 
 .experience__section__title {
     margin: 0rem;
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    .size__title__2 {
+        font-size: 2rem;
+    }
 }

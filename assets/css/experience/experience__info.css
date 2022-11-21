@@ -1,7 +1,4 @@
-.experience__info {
-    margin: 1rem;
-}
-
+/* Mobile y tablet */
 .experience__botao--repo, .experience__botao--demo {
     padding: 1.2rem 1.5rem;
     border-color: var(--cor-de-button);
@@ -19,4 +16,11 @@
 .experience__botao--demo {
     color: var(--cor-de-box);
     background-color: #2A7AE4;
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    .experience__info {
+        margin: 1rem;
+    }
 }

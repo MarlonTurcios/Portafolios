@@ -1,4 +1,13 @@
+/* Mobile y tablet */
 .skills__line {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+}
+
+/* Desktop */
+@media (min-width: 1100px) {
+    .skills__line {
+        flex-wrap: nowrap;
+    }
 }
